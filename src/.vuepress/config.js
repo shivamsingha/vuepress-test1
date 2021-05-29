@@ -42,6 +42,10 @@ module.exports = {
         link: '/config/'
       },
       {
+        text: 'Test Link',
+        link: '/test/'
+      },
+      {
         text: 'VuePress',
         link: 'https://v1.vuepress.vuejs.org'
       }
@@ -54,6 +58,12 @@ module.exports = {
           children: [
             '',
             'using-vue',
+          ]
+        }, {
+          title: 'Subsection',
+          collapsable: false,
+          children: [
+            'topic1',
           ]
         }
       ],
